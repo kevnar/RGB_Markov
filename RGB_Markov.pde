@@ -1,7 +1,7 @@
 // RGB Markov //<>// //<>//
 // by Kevin Ranville
 //
-// A computer-generated art algorithm that will create a markov chain from the changing RGB values of a source image,
+// An algorithm that will create a markov chain from the changing RGB values of a source image,
 // and then create random images based on the statistical probabilities from the markov chain.
 
 PImage source;
@@ -122,7 +122,4 @@ void setup() {
 
 
   image(result, 0, 0);
-}
-
-void draw() {
 }
